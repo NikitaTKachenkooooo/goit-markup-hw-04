@@ -315,6 +315,9 @@ item-icon {
     list-style: none;
     display: flex;
     margin-left: 8px;
+    margin-top: 0px;
+    padding-top: 94px;
+    justify-content: center;
 }
 
 .buttom-list {
@@ -435,7 +438,8 @@ img {
     width: 44px;
     height: 44px;
     background-color: #FFFFFF;
-    cursor: pointer;        transition-property: background-color, color;
+    cursor: pointer;        
+    transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -445,6 +449,7 @@ img {
     background-color: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 250ms;
 }
 
 .staff-icons {}
@@ -591,6 +596,7 @@ flex-direction: row;
 .footer-icon-link:focus,
 .footer-icon-link:hover {
     background-color: var(--color--blue);
+    transition-duration: 250ms;
 }
 
 .staff-icons {}
@@ -610,6 +616,7 @@ flex-direction: row;
 .portfolio-list {
     flex-wrap: wrap;
     display: flex;
+    margin-bottom: 94px;
 }
 
 
@@ -672,7 +679,7 @@ flex-direction: row;
 
 
 .section-portfolio {
-    margin-bottom: 94px;
+    
 }
 .portfolio-name {
     padding: 24px 20px;
@@ -722,7 +729,7 @@ flex-direction: row;
     transition-property: background-color, color, border-radius;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 94px
+    margin-bottom: 50px;
 
 }
 
@@ -788,10 +795,13 @@ flex-direction: row;
 .contacts-link-header:hover,
 .contacts-link-header:focus {
     color: var(--color--blue);
+    transition-duration: 250ms;
+    
 
 }
 
 .header-buttom:hover,
 .header-buttom:focus {
     color: var(--color--blue);
+    transition-duration: 250ms;
 }
