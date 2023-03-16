@@ -331,7 +331,6 @@ item-icon {
 .botton-list-nav {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
 }
 
 .list-feature .item {
@@ -439,7 +438,7 @@ img {
     height: 44px;
     background-color: #FFFFFF;
     cursor: pointer;        
-    transition-property: background-color, color;
+    transition-property: background-color, color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -616,7 +615,6 @@ flex-direction: row;
 .portfolio-list {
     flex-wrap: wrap;
     display: flex;
-    margin-bottom: 94px;
 }
 
 
@@ -681,6 +679,7 @@ flex-direction: row;
 
 .section-portfolio {
     padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 .portfolio-name {
@@ -713,13 +712,11 @@ flex-direction: row;
 /* Section nav bottoms */
 
 .botton-list{
-    padding: 0px 15px 50px 15px;
+    padding: 0px 15px 0px 15px;
     width: 1200px;
-    
-    margin: 0 auto;
+    margin: 0px 0px 50px 0px;
 }
-.buttom-list {
-    
+.buttom-list-nav {
 }
 
 .buttom-nav {
@@ -737,7 +734,6 @@ flex-direction: row;
     transition-property: background-color, color, border-radius;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
 
 }
 
